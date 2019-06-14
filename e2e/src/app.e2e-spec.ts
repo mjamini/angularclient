@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('Welcome to clientui!');
+    expect(page.getTitleText()).toEqual('Spring Boot - Angular Application');
   });
 
   afterEach(async () => {
